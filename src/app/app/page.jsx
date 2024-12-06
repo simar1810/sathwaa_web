@@ -9,7 +9,7 @@ export default function Page() {
 
         <div className="flex flex-col items-center lg:items-start lg:pl-6 lg:w-[40%] mt-[5rem] md:mt-[10rem] lg:mt-0 text-center lg:text-left">
           <h1 className="text-[1.2rem] md:text-[1.5rem] lg:text-[3rem] font-bold lg:mb-12 lg:leading-[3.5rem] ">Download the <br />
-            <span className='md:text-[2.7rem] text-[2rem] lg:text-[3rem] text-white opacity-100'>We Transform Lives App</span>
+            <span className='md:text-[2.7rem] text-[2rem] lg:text-[3rem] text-white opacity-100'>Satva Nutrition App</span>
           </h1>
           <p className="text-sm md:text-xl mb-5 opacity-70 ">Begin your journey Towards Making People Healthy</p>
           <div className="flex justify-between items-center gap-5 mb-5">
