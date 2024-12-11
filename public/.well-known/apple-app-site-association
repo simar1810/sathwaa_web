@@ -3,13 +3,18 @@
     "apps": [],
     "details": [
       {
-        "appIDs": ["YB5RW5JH8M.com.wellnessz.wellnesspoint"],
-        "paths": ["/app/*"]
-        
+        "appIDs": [
+          "6738799206.com.wellnessz.wellnesszApp"
+        ],
+        "paths": [
+          "/app/*"
+        ]
       }
     ]
   },
   "webcredentials": {
-    "apps": ["YB5RW5JH8M.com.wellnessz.wellnesspoint"]
+    "apps": [
+      "6738799206.com.wellnessz.wellnesszApp"
+    ]
   }
 }

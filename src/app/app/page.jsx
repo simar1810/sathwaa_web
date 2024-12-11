@@ -13,10 +13,10 @@ export default function Page() {
           </h1>
           <p className="text-sm md:text-xl mb-5 opacity-70 ">Begin your journey Towards Making People Healthy</p>
           <div className="flex justify-between items-center gap-5 mb-5">
-            <Link href="https://play.google.com/store/apps/details?id=com.wellnessz.wtl" target="_blank">
+            <Link href="https://play.google.com/store/apps/details?id=com.wellnessz.sathwaa" target="_blank">
               <Image src="/playstore.png" alt="Google Store" width={150} height={40} className="cursor-pointer" />
             </Link>
-            <Link href="https://apps.apple.com/in/app/we-transform-lives-app/id6737467933" target="_blank">
+            <Link href="https://apps.apple.com/in/app/sathwaa-nutrition/id6738799206" target="_blank">
               <Image src="/appStore.png" alt="App Store" width={150} height={60} className="cursor-pointer" />
             </Link>
           </div>
