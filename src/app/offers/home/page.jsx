@@ -19,9 +19,9 @@ export default function Home3() {
       >
         <div className="md:w-[50%] flex flex-col gap-4">
           <h1 className="lg:leading-[4.4rem] font-semibold text-[2rem] md:text-[3rem] md:leading-[3rem] leading-8 lg:text-[4rem] mt-4">
-            Get <span className="text-[#0168A8]">Healthy body</span>
+            Get <span className="text-[#E97A4A]">Healthy body</span>
             <br />
-            With the Perfect <span className="text-[#0168A8]">Workouts</span>
+            With the Perfect <span className="text-[#E97A4A]">Workouts</span>
           </h1>
           <p className="opacity-50 font-semibold xl:text-[0.8rem] xl:pr-[15rem]">
             We are always there fo help to make a healthy body and mind through

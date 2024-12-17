@@ -22,7 +22,7 @@ export default function Benefits3() {
 
   return (
     <section className="w-100mb-6 flex flex-col items-center bg-white p-3 pb-10 md:px-10 lg:px-20 lg:py-6 relative">
-      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#0168A8] ">
+      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#E97A4A] ">
         Benefits with Us
       </h2>
       <p className="md:opacity-50 text-[0.8rem] md:text-[0.9rem] mb-10 text-center p-2 md:px-[15rem] md:font-semibold">
@@ -55,7 +55,7 @@ export default function Benefits3() {
 
       <div className="flex flex-col items-center md:flex-row justify-between p-2 pb-6 md:p-10 rounded-lg bg-[#62a4cd6a]">
         <div className="flex flex-col gap-4 p-4 md:max-w-[70%] ">
-          <h1 className="text-[#0168A8] text-[1.2rem] md:text-[2.5rem] font-semibold">
+          <h1 className="text-[#E97A4A] text-[1.2rem] md:text-[2.5rem] font-semibold">
             So Why wait, Join Now
           </h1>
           <p className="opacity-40 text-[0.9rem] md:text-[1rem]">

@@ -39,10 +39,10 @@ export default function ClubHome() {
       ></Image>
 
       <h1 className="text-[1.3rem] md:text-[2.5rem] font-bold mb-14">
-        <span className="text-[#0168A8]">Satva Nutrition</span> Club
+        <span className="text-[#E97A4A]">Satva Nutrition</span> Club
       </h1>
 
-      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#0168A8]">
+      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#E97A4A]">
         What We Offer
       </h2>
       <div className="flex flex-wrap justify-center gap-6 h-[30%] my-10 w-full">
@@ -64,7 +64,7 @@ export default function ClubHome() {
         </div> */}
       </div>
 
-      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#0168A8] mt-[5rem]">
+      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#E97A4A] mt-[5rem]">
         Explore Our Fitness Videos
       </h2>
       <p className="opacity-50 text-[0.8rem] md:text-[0.9rem] mb-10 text-center p-2 md:font-semibold">

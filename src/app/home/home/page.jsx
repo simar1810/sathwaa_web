@@ -54,14 +54,14 @@ export default function Home() {
 
       <div className="flex flex-col-reverse xl:flex-row xl:justify-between items-center gap-[2rem] md:gap-[10rem] xl:gap-4 ">
         <div className="flex flex-col items-start xl:w-[50%] gap-6 ">
-          <div className="flex justify-self-center -mb-4 md:mb-0 items-center cursor-pointer gap-1 md:gap-2 text-[0.8rem] md:px-4 px-2 py-2 border-[1px] border-[#144EE3] text-[#0168A8] font-semibold rounded-2xl shadow-[9px_9px_6px_0px_#F2F1F8]">
+          <div className="flex justify-self-center -mb-4 md:mb-0 items-center cursor-pointer gap-1 md:gap-2 text-[0.8rem] md:px-4 px-2 py-2 border-[1px] border-[#144EE3] text-[#E97A4A] font-semibold rounded-2xl shadow-[9px_9px_6px_0px_#F2F1F8]">
             Feel the Strength
             <Image src="/heart.svg" alt="image" width={30} height={30} />
           </div>
           <h1 className="lg:leading-[4.4rem] font-semibold text-[2rem] md:text-[3rem] md:leading-[3rem] leading-8 lg:text-[4rem] mt-4">
-            Get <span className="text-[#0168A8]">Healthy body</span>
+            Get <span className="text-[#E97A4A]">Healthy body</span>
             <br />
-            With the Perfect <span className="text-[#0168A8]">Workouts</span>
+            With the Perfect <span className="text-[#E97A4A]">Workouts</span>
           </h1>
           <p className="opacity-50 font-semibold xl:text-[0.8rem] xl:pr-[15rem]">
             We are always there to help to make a healthy body and mind through
@@ -70,7 +70,7 @@ export default function Home() {
           <div className="flex gap-8">
             <Link
               href={"#register"}
-              className="bg-[#0168A8] md:px-6 text-[0.8rem] flex justify-center items-center px-4 rounded-3xl text-white cursor-pointer"
+              className="bg-[#E97A4A] md:px-6 text-[0.8rem] flex justify-center items-center px-4 rounded-3xl text-white cursor-pointer"
             >
               Get Started
             </Link>
@@ -89,11 +89,10 @@ export default function Home() {
                 className="flex flex-col md:leading-9 opacity-80 font-semibold md:text-left mr-2"
               >
                 <span
-                  className={`flex text-[1.7rem] self-center md:self-auto md:text-[2rem] ${
-                    index < numbersData.length - 1
-                      ? "md:border-r-2 border-r-black"
-                      : ""
-                  }`}
+                  className={`flex text-[1.7rem] self-center md:self-auto md:text-[2rem] ${index < numbersData.length - 1
+                    ? "md:border-r-2 border-r-black"
+                    : ""
+                    }`}
                 >
                   <AnimatedNumber number={item.value} /> {item.postfix}
                 </span>
@@ -105,22 +104,22 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-[230px] h-[230px] mb-4 md:mb-0 md:w-[536px] self-center md:h-[536px] rounded-full bg-[#0168A8] relative">
+        <div className="w-[230px] h-[230px] mb-4 md:mb-0 md:w-[536px] self-center md:h-[536px] rounded-full bg-[#E97A4A] relative">
           <Image
-            src="/homePeople.svg"
+            src="/nutritionist.pn g"
             alt="image"
             height={850}
             width={737}
-            className="md:hidden absolute w-[284px] h-[324px] right-[0rem]  -top-[1rem]  m-0 p-0"
+            className="md:hidden absolute w-[284px] h-[324px] right-[0rem]  -top-[1rem]  m-0 p-0 object-contain"
           />
         </div>
 
         <Image
-          src="/homePeople.svg"
+          src="/nutritionist.pn g"
           alt="image"
           height={850}
           width={737}
-          className="hidden md:block absolute w-[284px] h-[324px] right-[2.5rem] md:-right-[4rem] top-[4rem] md:top-[16rem] md:w-[836px] md:h-[500px] m-0 p-0"
+          className="hidden md:block absolute w-[284px] h-[324px] right-[2.5rem] md:-right-[4rem] top-[4rem] md:top-[16rem] md:w-[836px] md:h-[500px] m-0 p-0 object-contain"
         />
       </div>
     </section>

@@ -46,7 +46,7 @@ export default function Footer() {
               />
             </Link>
           </div>
-          <div className="flex gap-4 cursor-pointer text-[#0168A8] ">
+          <div className="flex gap-4 cursor-pointer text-[#E97A4A] ">
             <FaFacebookF />
             <FaTwitter />
             <FaInstagram />
@@ -103,12 +103,12 @@ export default function Footer() {
           <span className="px-2 opacity-70">All Rights Reserved</span>
           <div className="text-[0.7rem] md:text-[0.8rem]">
             <Link href={"/terms"}>
-              <u className="text-[#0168A8] px-2 border-x-2 cursor-pointer border-gray-500">
+              <u className="text-[#E97A4A] px-2 border-x-2 cursor-pointer border-gray-500">
                 Terms and Conditions
               </u>
             </Link>
             <Link href={"/privacy-policy"}>
-              <u className="text-[#0168A8] px-2 cursor-pointer ">
+              <u className="text-[#E97A4A] px-2 cursor-pointer ">
                 Privacy Policy
               </u>
             </Link>

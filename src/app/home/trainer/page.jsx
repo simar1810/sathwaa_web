@@ -22,10 +22,10 @@ export default function Trainer() {
         {data.map((item, idx) => (
           <div
             key={idx}
-            className="bg-[#0168A8] rounded-2xl md:w-[25%] h-[140px] relative"
+            className="bg-[#E97A4A] rounded-2xl md:w-[25%] h-[140px] relative"
           >
             <Image
-              src={item.img}
+              src={"/item.img"}
               alt="image"
               width={324}
               height={390}

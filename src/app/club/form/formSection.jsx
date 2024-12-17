@@ -57,9 +57,9 @@ export default function ClubFormSection() {
           {data.map((item, index) => (
             <div
               key={index}
-              className="w-[45%] md:w-[40%] flex flex-col border-[1px] border-[#0168A8] rounded-3xl p-4"
+              className="w-[45%] md:w-[40%] flex flex-col border-[1px] border-[#E97A4A] rounded-3xl p-4"
             >
-              <h1 className="text-[2rem] text-[#0168A8] flex items-center">
+              <h1 className="text-[2rem] text-[#E97A4A] flex items-center">
                 <AnimatedNumber number={item.value} /> {item.postfix}
               </h1>
               <h5 className="text-[0.9rem] font-semibold">{item.name}</h5>

@@ -46,7 +46,7 @@ export default function Provide() {
     <section className="w-[100%] flex flex-col bg-white px-4 md:px-20 py-6">
       <div className="flex flex-col lg:flex-row justify-between font-semibold gap-10 lg:gap-0 lg:mt-14 w-[100%]">
         <div className="flex flex-col gap-3 lg:w-[50%] xl:pr-[14rem]">
-          <h1 className=" text-[1.2rem] text-[#0168A8]">WHAT WE PROVIDE</h1>
+          <h1 className=" text-[1.2rem] text-[#E97A4A]">WHAT WE PROVIDE</h1>
           <h1 className="leading-8 text-[2rem]">
             Embrace the Power of Fitness
           </h1>
@@ -79,7 +79,7 @@ export default function Provide() {
 
       {/* where to start */}
       <div className="mt-[6rem] flex flex-col items-center py-4 gap-3 font-semibold text-center">
-        <h1 className="text-[1.3rem] md:text-[2rem] text-[#0168A8]">
+        <h1 className="text-[1.3rem] md:text-[2rem] text-[#E97A4A]">
           Not Sure Where to Start?
         </h1>
         <p className="opacity-70 text-[0.9rem]">

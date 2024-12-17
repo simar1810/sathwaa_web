@@ -77,8 +77,8 @@ export default function RegistrationForm() {
       console.log("error in verifying payment api", err);
       toast.error(
         err?.message ||
-          err?.response?.data?.message ||
-          "Payment Failed! Try Again!"
+        err?.response?.data?.message ||
+        "Payment Failed! Try Again!"
       );
     }
     toast.dismiss(toastId);
@@ -184,8 +184,8 @@ export default function RegistrationForm() {
           console.log("error in ordering api", err);
           toast.error(
             err?.message ||
-              err?.response?.data?.message ||
-              "Payment Failed! Try Again!"
+            err?.response?.data?.message ||
+            "Payment Failed! Try Again!"
           );
         }
         setLoading(false);
@@ -199,22 +199,22 @@ export default function RegistrationForm() {
 
   return (
     <>
-      <form className="pt-[4rem] md:shadow-xl -mt-[3rem] xl:mt-0 flex flex-col justify-center md:px-8 py-4 gap-6 rounded-2xl md:mt-14 w-[95%] md:w-[70%] ">
-        <h1 className="text-[2rem] md:text-[3rem] leading-[4rem] font-semibold text-[#0168A8]">
+      <form className="w-1/2 pt-[4rem] md:shadow-xl -mt-[3rem] xl:mt-0 flex flex-col justify-center md:px-8 py-4 gap-6 rounded-2xl md:mt-14 w-[95%] md:w-[70%] ">
+        <h1 className="text-[2rem] md:text-[3rem] leading-[4rem] font-semibold text-[#E97A4A]">
           Join Us
         </h1>
 
         <div className="mb-2 relative">
           <label
             htmlFor="name"
-            className="block text-sm mb-2 font-medium absolute -top-2 left-2 bg-white px-1 text-[#0168A8]"
+            className="block text-sm mb-2 font-medium absolute -top-2 left-2 bg-white px-1 text-[#E97A4A]"
           >
             Name
           </label>
           <input
             type="text"
             id="name"
-            className="text-left border border-[#0168A8] placeholder-[#9CA2A9] text-black text-sm rounded-lg block w-full pt-4 p-2 outline-none"
+            className="text-left border border-[#E97A4A] placeholder-[#9CA2A9] text-black text-sm rounded-lg block w-full pt-4 p-2 outline-none"
             name="name"
             value={name}
             onChange={(e) => handleChange(e)}
@@ -223,13 +223,13 @@ export default function RegistrationForm() {
         <div className="mb-2 relative">
           <label
             htmlFor="email"
-            className="block text-sm mb-2 font-medium absolute -top-2 left-2 bg-white px-1 text-[#0168A8]"
+            className="block text-sm mb-2 font-medium absolute -top-2 left-2 bg-white px-1 text-[#E97A4A]"
           >
             Email
           </label>
           <input
             type="email"
-            className="border border-[#0168A8] text-black placeholder-[#9CA2A9] text-sm rounded-lg block w-full pt-4 p-2 outline-none"
+            className="border border-[#E97A4A] text-black placeholder-[#9CA2A9] text-sm rounded-lg block w-full pt-4 p-2 outline-none"
             name="email"
             value={email}
             onChange={(e) => handleChange(e)}
@@ -238,13 +238,13 @@ export default function RegistrationForm() {
         <div className="mb-2 relative">
           <label
             htmlFor="mobile"
-            className="block text-sm mb-2 font-medium absolute -top-2 left-2 bg-white px-1 text-[#0168A8]"
+            className="block text-sm mb-2 font-medium absolute -top-2 left-2 bg-white px-1 text-[#E97A4A]"
           >
             Mobile
           </label>
           <input
             type="number"
-            className="border border-[#0168A8] text-black placeholder-[#9CA2A9] text-sm rounded-lg block w-full pt-4 p-2 outline-none"
+            className="border border-[#E97A4A] text-black placeholder-[#9CA2A9] text-sm rounded-lg block w-full pt-4 p-2 outline-none"
             name="phoneNumber"
             value={phoneNumber}
             onChange={(e) => handleChange(e)}
@@ -253,7 +253,7 @@ export default function RegistrationForm() {
 
         <button
           onClick={(e) => handleSubmit(e)}
-          className="bg-gradient-to-br from-[#0168A8] to-[#053756] text-white font-medium mb-6 py-2.5 px-5 rounded-lg w-full"
+          className="bg-gradient-to-br from-[#E97A4A] to-[#E97A4A99] text-black font-medium mb-6 py-2.5 px-5 rounded-lg w-full"
         >
           {loading ? <Loader /> : "Submit Details"}
         </button>

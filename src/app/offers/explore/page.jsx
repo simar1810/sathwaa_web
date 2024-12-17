@@ -22,7 +22,7 @@ export default function Features3() {
 
   return (
     <section className="w-100 md:bg-[url('/clubHomebg.svg')] bg-cover bg-bottom mb-6 flex flex-col items-center bg-white p-3 md:px-10 lg:px-20 lg:py-6 relative">
-      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#0168A8] ">
+      <h2 className="text-[1rem] md:text-[1.5rem] font-semibold text-[#E97A4A] ">
         Explore Fitness Videos
       </h2>
       <p className="opacity-50 text-[0.8rem] md:text-[0.9rem] mb-10 text-center p-2 md:font-semibold">

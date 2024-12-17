@@ -16,7 +16,7 @@ function SampleNextArrow(props) {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        background: "#0168A8",
+        background: "#E97A4A",
         borderRadius: "50%",
         padding: "15px",
       }}
@@ -34,7 +34,7 @@ function SamplePrevArrow(props) {
       className={className}
       style={{
         ...style,
-        background: "#0168A8",
+        background: "#E97A4A",
         borderRadius: "50%",
         display: "flex",
         justifyContent: "center",
@@ -107,7 +107,7 @@ export default function Results() {
 
   return (
     <section className="w-full flex flex-col items-center bg-white p-3 md:px-10 lg:px-20 lg:py-6 relative mb-10">
-      <h2 className="mb-2 md:text-[1.5rem] font-semibold text-[#0168A8]">
+      <h2 className="mb-2 md:text-[1.5rem] font-semibold text-[#E97A4A]">
         Amazing Transformations
       </h2>
       <p className="opacity-50 md:text-[0.9rem] mb-10 text-center p-2 md:font-semibold">

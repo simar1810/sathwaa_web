@@ -24,7 +24,7 @@ export default function Featured() {
 
   return (
     <section className="w-100 flex flex-col items-center bg-white p-3 md:px-10 lg:px-20 lg:py-6 relative mb-10">
-      <h2 className="mb-2 md:text-[1.5rem] font-semibold text-[#0168A8] ">
+      <h2 className="mb-2 md:text-[1.5rem] font-semibold text-[#E97A4A] ">
         Our Featured Trainers
       </h2>
       <p className="opacity-50 md:text-[0.9rem] mb-10 text-center p-2 md:font-semibold">
@@ -46,7 +46,7 @@ export default function Featured() {
               className=" w-full"
             ></Image>
             <h1 className="text-[1.2rem] font-semibold mt-2">{item.name}</h1>
-            <h2 className="text-[#0168A8] mb-2">{item.post}</h2>
+            <h2 className="text-[#E97A4A] mb-2">{item.post}</h2>
             <p className="text-[0.8rem] md:text-[1rem] md:max-w-[70%] opacity-70">
               {item.desc}
             </p>

@@ -45,15 +45,15 @@ export default function Why() {
         </div>
 
         <Link href={"#register"}>
-          <div className="bg-[#0168A8] flex justify-center items-center cursor-pointer text-white p-3 rounded-full w-[7rem] text-[0.8rem] md:text-[1rem] md:w-[11rem]">
+          <div className="bg-[#E97A4A] flex justify-center items-center cursor-pointer text-white p-3 rounded-full w-[7rem] text-[0.8rem] md:text-[1rem] md:w-[11rem]">
             Get Started
           </div>
         </Link>
       </div>
 
-      <div className="w-[276px] h-[276px] md:w-[530px] md:h-[530px] rounded-full bg-[#0168A8] mt-2 relative">
+      <div className="w-[276px] h-[276px] md:w-[530px] md:h-[530px] rounded-full bg-[#E97A4A] mt-2 relative">
         <Image
-          src="/together-3.png"
+          src="/toget her-3.png"
           alt="image"
           width={696}
           height={644}
