@@ -37,6 +37,7 @@ export default function Posters() {
             width={740}
             unoptimized
             alt={`Client Result ${idx}`}
+            key={idx}
             className="w-full h-full max-h-[350px] max-w-[600px] object-contain snap-start"
           />))}
         </div>

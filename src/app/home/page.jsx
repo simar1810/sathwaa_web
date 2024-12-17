@@ -38,7 +38,7 @@ function Nutritionist() {
       <p className="text-[40px] md:text-[60px] text-[#006231] font-bold mb-[28px] md:mb-[48px]">Chetna Nagesh</p>
       <p className="text-[16px] md:text-[20px] text-[#0000008D] leading-[1.6]">Are you ready to transform your fitness journey?
         Setting clear, achievable goals is the first step towards
-        success. Whether you're aiming to lose weight, build
+        success. Whether you&apos;re aiming to lose weight, build
         muscle, or improve endurance, a diverse workout
         routine incorporating cardio, strength, and flexibility
         exercises will help you reach your targets.</p>
