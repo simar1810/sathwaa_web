@@ -59,9 +59,8 @@ export default function Home() {
             <Image src="/heart.svg" alt="image" width={30} height={30} />
           </div>
           <h1 className="lg:leading-[4.4rem] font-semibold text-[2rem] md:text-[3rem] md:leading-[3rem] leading-8 lg:text-[4rem] mt-4">
-            Get <span className="text-[#E97A4A]">Healthy body</span>
-            <br />
-            With the Perfect <span className="text-[#E97A4A]">Workouts</span>
+            Nourish Your&nbsp;<span className="text-[#F26221]">Body</span>&nbsp;
+            Empower Your Life 🥗&nbsp;
           </h1>
           <p className="opacity-50 font-semibold xl:text-[0.8rem] xl:pr-[15rem]">
             We are always there to help to make a healthy body and mind through
@@ -74,11 +73,6 @@ export default function Home() {
             >
               Get Started
             </Link>
-
-            <div className="flex justify-center items-end text-[0.8rem] gap-3 font-semibold md:text-[0.9rem] py-2 cursor-pointer">
-              <Image src="/playButton.svg" alt="image" width={20} height={20} />{" "}
-              Watch Demo
-            </div>
           </div>
 
           {/* numbers div */}

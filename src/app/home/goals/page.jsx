@@ -59,12 +59,9 @@ export default function Goals() {
           Get ready to reach Your fitness Goals
         </h1>
         <p className="opacity-50 font-semibold md:pr-16">
-          Are you ready to transform your fitness journey?
+          Are you ready to transform your health and wellness journey?
           <br />
-          Setting clear, achievable goals is the first step towards success.
-          Whether you&apos;re aiming to lose weight, build muscle, or improve
-          endurance, a diverse workout routine incorporating cardio, strength,
-          and flexibility exercises will help you reach your targets.
+          Setting clear, achievable goals for your nutrition and lifestyle is the first step toward success. Whether you&apos;re aiming to - <u>Lose weight</u>, <u>Boost Energy Levels</u>, <u>Improve Digestion</u>, <u>Enhance Overall Health</u>
         </p>
         <div className="flex flex-wrap gap-4 md:gap-6 justify-center md:justify-normal lg:w-[70%]">
           {data.map((item, index) => (
